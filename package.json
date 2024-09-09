@@ -1,0 +1,13 @@
+{
+  "name": "quick-start",
+  "private": true,
+  "scripts": {
+    "install": "compilets gen && compilets build"
+  },
+  "compilets": {
+    "main": "eratosthenes.ts"
+  },
+  "dependencies": {
+    "compilets": "0.1.1"
+  }
+}
