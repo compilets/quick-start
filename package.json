@@ -8,6 +8,6 @@
     "main": "eratosthenes.ts"
   },
   "dependencies": {
-    "compilets": "0.1.1"
+    "compilets": "0.1.2"
   }
 }

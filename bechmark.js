@@ -3,7 +3,7 @@
 let sieveOfEratosthenesJs =
   require('./eratosthenes.ts').sieveOfEratosthenes;
 let sieveOfEratosthenesNative =
-  require('./cpp-project/out/Release/eratosthenes.node').sieveOfEratosthenes;
+  require('./cpp-project/out/Release/quick-start.node').sieveOfEratosthenes;
 
 console.time('sieveOfEratosthenes in JS');
 const jsPrimes = sieveOfEratosthenesJs(1000 * 1000);
@@ -19,7 +19,7 @@ deepStrictEqual(jsPrimes, nativePrimes);
 let isPrimeNumberJS =
   require('./eratosthenes.ts').isPrimeNumber;
 let isPrimeNumberNative =
-  require('./cpp-project/out/Release/eratosthenes.node').isPrimeNumber;
+  require('./cpp-project/out/Release/quick-start.node').isPrimeNumber;
 
 console.time('isPrimeNumber in JS');
 isPrimeNumberJS(9007199254740881);

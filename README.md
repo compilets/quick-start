@@ -56,7 +56,7 @@ module.
 $ npx compilets build
 ninja: Entering directory `out/Release'
 ninja: no work to do.
-$ node -e "console.log(require('./cpp-project/out/Release/eratosthenes.node'))"
+$ node -e "console.log(require('./cpp-project/out/Release/quick-start.node'))"
 {
   sieveOfEratosthenes: [Function (anonymous)],
   isPrimeNumber: [Function (anonymous)]
